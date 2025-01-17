@@ -188,7 +188,7 @@ public class Main {
             scanner.nextLine(); // Consuma la newline
 
             try {
-                switch (scelta) { //gestisco gli input tramite scanner 
+                switch (scelta) { //gestisco gli input tramite scanner e switch, breck consente di uscire dallo switch
                     case 1:
                         System.out.println("Inserisci International Standard Book Number, titolo, anno, numero di pagine e autore:");
                         String isbnLibro = scanner.nextLine();
