@@ -167,6 +167,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         try {
+            //esempio di utilizzo
             catalogo.aggiungiElemento(new Libro("123", "Il Signore degli Anelli", 1954, 1200, "J.R.R. Tolkien"));
             catalogo.aggiungiElemento(new Rivista("456", "Science Magazine", 2023, 50, "Mensile"));
         } catch (IsbnDuplicatoException e) {
